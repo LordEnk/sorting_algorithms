@@ -56,3 +56,5 @@ void swap_ints(int *a, int *b);
 void swap_nodes(listint_t **h, listint_t **n1, listint_t *n2)
 nt lomuto_partition(int *array, size_t size, int left, int right);
 void lomuto_sort(int *array, size_t size, int left, int right);
+
+#endif /* SORT_H */
